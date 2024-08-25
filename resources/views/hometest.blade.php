@@ -26,7 +26,7 @@
   <tr>
     <td>Teacher 1</td>
     <td>Teacher 2</td>
-    <td>Must have. . . </td>
+    <td>Must have earned 25% of MA academic requirements on his/her specialization; Must have a Very Good/Very Satisfactory efficieny rating; At least three (3) years teaching experience.</td>
   </tr>
 </table></div>
   
