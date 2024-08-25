@@ -32,7 +32,7 @@
   
   <div class="AAG">
     <h2>A. Academic Attainment and Growth</h2>
-    <h3>1. attaintment and growth here</h3>
+    <h3></h3>
   </div>
 
   <div class="perform-content">
@@ -47,8 +47,11 @@
     </table>
   </div>
 
+
+
   <div class="PS-content">
   <h2>C. Productive Scholarship (15 points)</h2>
+  <form action="">
   <table class="PS-table-seminar">C1. Seminar
     <tr>
       <th>Documents</th>
@@ -58,11 +61,17 @@
       <th>Points</th>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td><select name="doc-type" id="doc-type">
+        <option value="certificate">Certificate</option>
+        <option value="other">Other</option>
+        </select>
+      </td>
+      <td><input type="text" id="topic" name="topic"></td>
+      <td>
+      <input type="number" id="quantity" name="quantity" min="1" max="15">
+      </td>
+      <td><input type="date" id="inclusive-date" name="inclusive-date"></td>
+      <td><input type="number" id="quantity" name="quantity" min="1" max="31"></td>
     </tr>
     <tr>
       <td>Total</td>
@@ -72,9 +81,13 @@
       <td>0.0</td>
     </tr>
   </table>
+  </form>
   </div>
 
+
+
   <div>
+    <form action="">
     <table class="PS-table-HA">C.2 Honors and Awards
       <tr>
         <th>Documents</th>
@@ -83,10 +96,42 @@
         <th>Points</th>
       </tr>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><select name="doc-type" id="doc-type">
+          <option value="certificate">Certificate</option>
+          <option value="other">Other</option>
+          </select>
+        </td>
+        <td><input type="text" id="title" name="title"></td>
+        <td><input type="text" id="sponsor" name="sponsor"></td>
+        <td><input type="number" id="quantity" name="quantity" min="1" max="15"></td>
+      </tr>
+      <tr>
+        <td>Sub-total</td>
+        <td colspan="2"></td>
         <td>0.0</td>
+      </tr>
+    </table>
+    </form>
+  </div>
+
+
+  <div>
+    <table class="PS-table-Mem">C.3 Membership
+      <tr>
+        <th>Documents</th>
+        <th>Organization (s)</th>
+        <th>Designation</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td><select name="doc-type" id="doc-type">
+          <option value="certificate">Certificate</option>
+          <option value="other">Other</option>
+          </select>
+        </td>
+        <td><input type="text" id="organizations" name="organizations"></td>
+        <td><input type="text" id="designation" name="designation"></td>
+        <td><input type="number" id="quantity" name="quantity" min="1" max="15"></td>
       </tr>
       <tr>
         <td>Sub-total</td>
@@ -96,27 +141,6 @@
     </table>
   </div>
 
-  <div>
-    <table class="PS-table-Mem">C.3 Membership
-      <tr>
-        <th>Documents</th>
-        <th>Organization (s)</th>
-        <th>Sponsor</th>
-        <th>Points</th>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>0.0</td>
-      </tr>
-      <tr>
-        <td>Sub-total</td>
-        <td colspan="2"></td>
-        <td></td>
-      </tr>
-    </table>
-  </div>
 
   <div>
     <table class="PS-table-SACE">C.4 Scholarship Activities and Creative Efforts
@@ -128,11 +152,15 @@
       <th>Points</th>
     </tr>
     <tr>
-      <td>cert</td>
-      <td>. . . </td>
-      <td>. . . </td>
-      <td>. . .</td>
-      <td>1</td>
+      <td><select name="doc-type" id="doc-type">
+          <option value="certificate">Certificate</option>
+          <option value="other">Other</option>
+          </select>
+      </td>
+      <td><input type="text" id="title" name="title"></td>
+      <td><input type="text" id="designation" name="designation"></td>
+      <td><input type="date" id="inclusive-date" name="inclusive-date"></td>
+      <td><input type="number" id="quantity" name="quantity" min="1" max="15"></td>
     </tr>
     <tr>
       <td>Total</td>
