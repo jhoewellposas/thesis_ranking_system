@@ -1,0 +1,67 @@
+table, th, td {
+    border: 1px solid;
+}
+th {
+    font-size: 26px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    font-size: 24px;
+}
+
+div {
+    background-color: lightblue;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.header {
+    text-align: center;
+}
+
+.instruction {
+    width: 100%;
+    padding: 10px;
+}
+
+.perform-content {
+    padding-bottom: 10px;
+}
+
+.performance-table {
+    margin-left: 100px;
+}
+
+.PS-table-seminar, .PS-table-HA, .PS-table-Mem, .PS-table-SACE {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.R-C, .C-Gs {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.YoE-table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.StS-table, .SD-table, .SI-table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.AP-table, .AI-table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.DPCE-R-C-table, .DPCE-R-C-table-2 {
+    width: 100%;
+    margin-bottom: 10px;
+}

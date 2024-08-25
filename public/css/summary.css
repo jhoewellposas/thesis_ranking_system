@@ -1,0 +1,20 @@
+table, th, td {
+    border: 1px solid;
+}
+th {
+    font-size: 26px;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    font-size: 24px;
+}
+
+div {
+    background-color: lightblue;
+}
+
+h2 {
+    font-size: 24px;
+}
