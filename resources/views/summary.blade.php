@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('css/summary.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('CSS/summary.css')}}">
     <title>Summary</title>
 </head>
 <body>
-    <div>
+    <div class="header">
     <h1>SY 2024-2025</h1>
     <h1>SUMMARY</h1></div>  
 
@@ -20,8 +20,8 @@
     <h2>Years of experience:</h2>
   </div>
 
-  <div>
-    <table>
+  <div class="table-content">
+    <table class="R-C-table">
         <tr>
             <th>Ranking Criteria</th>
             <th>Points</th>
@@ -49,7 +49,7 @@
     </table>
   </div>
 
-  <div>
+  <div class="signature-form">
     <h2>Rank:</h2>
     <h3>Prepared by:</h3>
     <h3>Verified and Reviewed by Rank and Tenure COmmittee</h3>
@@ -57,9 +57,11 @@
     <h3>Name & signiture of member</h3>
     <h3>Name & signiture of chair</h3>
 
-    <h3>Approved</h3>
-    <h3>Date:</h3>
-    <h3>President</h3>
+        <div class="approved-section">
+            <h3>Approved</h3>
+            <h3>Date:</h3>
+            <h3>President</h3>
+        </div>
   </div>
 
 </body>

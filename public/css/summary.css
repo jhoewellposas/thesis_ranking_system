@@ -1,20 +1,60 @@
-table, th, td {
-    border: 1px solid;
-}
-th {
-    font-size: 26px;
-    text-align: center;
-}
-
-td {
-    text-align: center;
-    font-size: 24px;
-}
-
-div {
+* {
     background-color: lightblue;
 }
 
-h2 {
-    font-size: 24px;
+
+.header {
+    text-align: center;
 }
+
+tr, td, th {
+    border: 1px solid black;
+}
+
+.R-C-table {
+    margin: 0 auto;
+    width: 50%;
+    padding: 8px;
+}
+
+
+div.signature-form {
+    
+    margin: 0 auto;    
+    padding: 20px;     
+    border: 1px solid #ccc; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.signature-form h2, .signature-form h3 {
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+}
+
+
+.signature-form h2 {
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+
+.signature-form h3 {
+    text-align: left; 
+    font-weight: normal; 
+    border-bottom: 1px solid #333; 
+    padding-bottom: 5px; 
+    margin-bottom: 20px; 
+}
+
+
+.signature-form .approved-section h3 {
+    text-align: left; 
+    margin-top: 30px; 
+}
+
+
+.signature-form .approved-section h3:first-child {
+    margin-top: 40px; 
+}
+
+
